@@ -1,0 +1,207 @@
+html{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-color: #03aff7;
+}
+header{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25%;
+}
+#sektion{
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    margin: 0%;
+    justify-content: space-around;
+    height: 70%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+    justify-content: space-around;
+}
+aside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    margin: 0%;
+    padding: 1%;
+}
+#pres{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 150%;
+    text-align: center;
+    margin: 0%;
+    padding: 1%;
+}
+#number{
+    width: 80px;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 200%;
+    background-color: black;
+    color: white;
+}
+#choix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    width: 50%;
+    height: 25%;
+}
+.bouton{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    width: 60%;
+}
+
+#result, #historik, #help{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 150%;
+    margin: 0%;
+    text-align: center;
+    color: black;
+    padding: 1%;
+    min-height: 60px;
+}
+#cube{
+    width: 30%;
+    display: flex;
+}
+#mario{
+    display: flex;
+    justify-content: center;
+}
+
+/*------------ BOUTON -------------- */
+button{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 23px;
+    width: 250px;
+    height: 43px;
+    padding: 7px;
+    text-align: center;
+    color: #000;
+    background: #444;
+    border-radius: 8px;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.2);
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5), 0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+button:hover{
+    color: #222;
+}
+button:active{
+    color: #000;
+    background: #444;
+}
+#lancer{
+    background: linear-gradient( #E8D819, #BAAD18);
+}
+#lancer:hover{
+    background: linear-gradient(rgb(250, 252, 143), rgb(253, 243, 93));
+}
+#lancer:active{
+     background: linear-gradient( rgb(196, 199, 19), rgb(135, 145, 2));
+}
+#lancer:disabled{
+    background: linear-gradient( rgb(224, 188, 188), rgb(85, 85, 77));
+}
+#lancer:disabled:hover{
+    color: #000;
+}
+#rejouer{
+    background: linear-gradient( #1DE60B, #0C9100);
+}
+#rejouer:hover{
+    background: linear-gradient(rgb(159, 252, 105), rgb(57, 172, 12));
+}
+#rejouer:active{
+    background: linear-gradient( #3A962A, #236917);
+}
+#histo{
+    background: linear-gradient( rgb(97, 109, 221), rgb(8, 53, 201));
+}
+#histo:hover{
+    background: linear-gradient(rgb(141, 142, 238), rgb(89, 91, 201));
+}
+#histo:active{
+     background: linear-gradient( rgb(67, 48, 138), rgb(19, 4, 102));
+}
+#cheat{
+    background: linear-gradient( rgb(241, 96, 91), rgb(202, 11, 11));
+}
+#cheat:hover{
+    background: linear-gradient(rgb(245, 175, 153), rgb(245, 66, 66));
+}
+#cheat:active{
+    background: linear-gradient( #E6260B, #9C1A09);
+}
+#up, #down{
+    background: linear-gradient( rgb(252, 184, 129), rgb(228, 111, 1));
+    width: 100px;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#up:hover, #down:hover{
+    background: linear-gradient(rgb(255, 238, 201), rgb(211, 174, 8));
+}
+#up:active, #down:active{
+    background: linear-gradient( rgb(248, 132, 24), rgb(201, 74, 0));
+}
+
+/* -------------- FOOTER ---------------- */
+
+footer{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 5%;
+}
+#credit{
+    margin: 0%;
+    padding: 0%;
+
+}
+/*
+#down{
+    background-color: black;
+    margin: 0%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+*/
